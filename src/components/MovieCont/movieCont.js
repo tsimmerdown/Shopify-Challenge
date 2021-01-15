@@ -4,7 +4,6 @@ import Search from "../Search/search"
 import MovieList from "../MovieList/movieList"
 import axios from "axios";
 
-
 const MovieCont = (props) => {
 
   const [search, setSearch] = useState("");
