@@ -12,7 +12,7 @@ const Modal = () =>{
 
     useEffect(() => {
         setCookie('nomination', nominationArr, {path: '/'})
-    }, [nominationArr]);
+    }, [nominationArr, setCookie]);
 
     return<div className="modal-cont">
        <SideCont nominationArr={nominationArr} setNominationArr={setNominationArr}/>

@@ -10,24 +10,26 @@ const MovieCont = (props) => {
   const [search, setSearch] = useState("");
   const [results, setResults] = useState([]);
 
-  const getInfo = () => {
-    if(search !== ""){
-      axios.get(`http://www.omdbapi.com/?i=tt3896198&apikey=9775fcc&s=${search}`)
-      .then(({ data }) => {
-        setResults(data.Search);
-      })
-      .catch((error) => {
-        console.log(`Error ${error} while fetching`);
-      })
-    }
-  }
+  
 
   useEffect( () => {
+
+    const getInfo = () => {
+      if(search !== ""){
+        axios.get(`http://www.omdbapi.com/?i=tt3896198&apikey=9775fcc&s=${search}`)
+        .then(({ data }) => {
+          setResults(data.Search);
+        })
+        .catch((error) => {
+          console.log(`Error ${error} while fetching`);
+        })
+      }
+    }
     getInfo();
   }, [search]);
 
   return <div className="movieCont">
-    <Search setSearch={setSearch} getInfo={getInfo} />
+    <Search setSearch={setSearch}/>
     <MovieList results={results} {...props} />
   </div>
 }

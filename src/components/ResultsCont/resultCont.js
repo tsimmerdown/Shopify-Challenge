@@ -19,25 +19,23 @@ const ResultCont = (props) =>{
         )
     }
 
-    const disableHandler = () =>{
-        if(props.nominationArr.length < 5){
-            for(let i = 0; i < props.nominationArr.length; i ++){
-                if(props.nominationArr[i].id === props.result.imdbID){
-                    setDisable(true);
-                    return
-                }
-            }
-            setDisable(false);
-        }else{
-            setDisable(true);
-        }
-
-        
-    }
 
     useEffect(() => {
+        const disableHandler = () =>{
+            if(props.nominationArr.length < 5){
+                for(let i = 0; i < props.nominationArr.length; i ++){
+                    if(props.nominationArr[i].id === props.result.imdbID){
+                        setDisable(true);
+                        return
+                    }
+                }
+                setDisable(false);
+            }else{
+                setDisable(true);
+            }
+        }
         disableHandler();
-    },[props.nominationArr])
+    },[props.nominationArr, props.result.imdbID])
 
     return<div className="cont"
         onMouseEnter={() => setShow(true)}

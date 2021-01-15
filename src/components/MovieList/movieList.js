@@ -7,16 +7,17 @@ const MovieList = (props) =>{
 
   const [showWelcome, setShowWelcome] = useState(true);
 
-  const welcomeHandler = () => {
-    console.log(props.results)
-    if( props.results === undefined || props.results.length === 0 ){
-      setShowWelcome(true)
-    }else{
-      setShowWelcome(false)
-    }
-  };
+
 
   useEffect(() => {
+    const welcomeHandler = () => {
+      console.log(props.results)
+      if( props.results === undefined || props.results.length === 0 ){
+        setShowWelcome(true)
+      }else{
+        setShowWelcome(false)
+      }
+    };
     welcomeHandler();
   }, [props.results])
 
