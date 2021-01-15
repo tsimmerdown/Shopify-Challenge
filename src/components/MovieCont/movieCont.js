@@ -16,7 +16,7 @@ const MovieCont = (props) => {
 
     const getInfo = () => {
       if(search !== ""){
-        axios.get(`http://www.omdbapi.com/?i=tt3896198&apikey=9775fcc&s=${search}`)
+        axios.get(`https://www.omdbapi.com/?i=tt3896198&apikey=9775fcc&s=${search}`)
         .then(({ data }) => {
           setResults(data.Search);
         })
