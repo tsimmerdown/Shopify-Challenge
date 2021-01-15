@@ -8,7 +8,7 @@ import SideCont from "../SideCont/sideCont"
 const Modal = () =>{
     
     const [cookies, setCookie] = useCookies(['nomination']);
-    const [nominationArr, setNominationArr] = useState(cookies.nomination || undefined);
+    const [nominationArr, setNominationArr] = useState(cookies.nomination || []);
 
     useEffect(() => {
         setCookie('nomination', nominationArr, {path: '/'})
