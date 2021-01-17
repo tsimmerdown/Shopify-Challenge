@@ -11,13 +11,13 @@ const SideCont = (props) =>{
 
     const handleClick = () => {
       setSnackbar(true);
+      props.setCookie('nomination', [], {path: '/'})
     };
   
     const handleClose = (event, reason) => {
       if (reason === 'clickaway') {
         return;
       }
-  
       setSnackbar(false);
     };
 

@@ -15,7 +15,7 @@ const Modal = () =>{
     }, [nominationArr, setCookie]);
 
     return<div className="modal-cont">
-       <SideCont nominationArr={nominationArr} setNominationArr={setNominationArr}/>
+       <SideCont nominationArr={nominationArr} setNominationArr={setNominationArr} setCookie={setCookie}/>
        <MovieCont nominationArr={nominationArr} setNominationArr={setNominationArr}/>
     </div>
 }
