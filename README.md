@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="images/shopify.png" alt="Logo" width="80" height="80">
+  <img src="https://github.com/tsimmerdown/Shopify-Challenge/tree/main/public/images" alt="Logo" width="80" height="80">
 
   <h3 align="center">The Shoppies</h3>
 
@@ -44,6 +44,7 @@
 
 [![Shoppies Screen Shot][project-screenshot]](https://stephens-shoppies.netlify.app/)
 
+Web and UX Developer Shopify Challenge completed to demonstrate web development skills.
 
 
 ### Built With
@@ -100,4 +101,4 @@ Project Link: [https://github.com/tsimmerdown/Shopify-Challenge](https://github.
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/stephen-tsim/
-[project-screenshot]: images/screenshot.png
+[project-screenshot]: https://github.com/tsimmerdown/Shopify-Challenge/tree/main/public/images/screenshot.png
