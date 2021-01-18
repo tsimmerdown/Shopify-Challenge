@@ -1,70 +1,105 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/shopify.png" alt="Logo" width="80" height="80">
+  </a>
 
-In the project directory, you can run:
+  <h3 align="center">The Shoppies</h3>
 
-### `npm start`
+  <p align="center">
+    Web and UX Developer Shopify Challenge
+  </p>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![Shoppies Screen Shot][project-screenshot]](https://stephens-shoppies.netlify.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Built With
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [React.js](https://reactjs.org/)
+* [Material-UI](https://material-ui.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Learn More
+To get a local copy up and running follow these simple installation steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repo
+   ```sh
+   git clone https://github.com/tsimmerdown/Shopify-Challenge.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-### Analyzing the Bundle Size
+<!-- CONTACT -->
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Stephen Tsim - stephentsim096@gmail.com
 
-### Making a Progressive Web App
+Project Link: [https://github.com/tsimmerdown/Shopify-Challenge](https://github.com/tsimmerdown/Shopify-Challenge)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Framer-Motion](https://www.framer.com/motion/)
+* [Axios](https://www.npmjs.com/package/axios)
+* [react-cookie](https://www.npmjs.com/package/react-cookie)
+* [Iconmonstr](https://iconmonstr.com/)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/stephen-tsim/
+[project-screenshot]: images/screenshot.png
