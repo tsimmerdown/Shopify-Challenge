@@ -13,9 +13,16 @@ const Search = (props) =>{
     }
 
     return<div>
-        <h1 className="search">Search Movies</h1>
-        <input className="input" placeholder="Browse over 10000000 titles" 
-            onChange={(e) => {handler(e)}}/>
+        <h1 
+          className="search"
+        >
+          Search Movies
+        </h1>
+        <input 
+          className="input" 
+          placeholder="Browse over 10000000 titles" 
+          onChange={(e) => {handler(e)}}
+        />
     </div>
 }
 

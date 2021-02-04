@@ -24,9 +24,17 @@ const SideCont = (props) =>{
     return<div className="sideCont">
       <div className="logo-Shopify"></div>
       <div className="nomination-list">
-        <p style={{letterSpacing: "2px", fontWeight: "bold"}}>Current Nominations</p>
+        <p 
+          style={{letterSpacing: "2px", fontWeight: "bold"}}
+        >
+          Current Nominations
+        </p>
         {props.nominationArr.map((nomination, key) => {
-          return <Nomination nomination={nomination} key={key} {...props}/>
+          return <Nomination 
+                    nomination={nomination}
+                    key={key} 
+                    {...props}
+                  />
         })
         }
       </div>
@@ -39,12 +47,20 @@ const SideCont = (props) =>{
           transition={{ease: "easeOut", duration: 0.3 }}
           whileHover={{
             scale: 1.2
-         }}
+          }}
          onClick={() => handleClick()}>
         </motion.div>
       } 
-      <Snackbar open={snackbar} autoHideDuration={6000} onClose={handleClose}>
-        <MuiAlert onClose={handleClose} severity="success" style={{fontWeight:"bold"}}>
+      <Snackbar 
+        open={snackbar} 
+        autoHideDuration={6000} 
+        onClose={handleClose}
+      >
+        <MuiAlert 
+          onClose={handleClose} 
+          severity="success" 
+          style={{fontWeight:"bold"}}
+        >
           Your nomination list has been submitted. Thank you!
         </MuiAlert>
       </Snackbar>

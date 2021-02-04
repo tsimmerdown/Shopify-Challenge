@@ -7,8 +7,6 @@ const MovieList = (props) =>{
 
   const [showWelcome, setShowWelcome] = useState(true);
 
-
-
   useEffect(() => {
     const welcomeHandler = () => {
       console.log(props.results)
